@@ -9,11 +9,11 @@
 <!-- - 🔭 I’m currently working on ... -->
 
 - 🌱 I’m currently learning *Fundamental Knowledge* ...
-- 👯 I’m looking for collaborators of [Eorg](https://github.com/zhyd1997/Eorg) ...
+- 👯 I’m looking for collaborators of [Eorg](https://Zixu-Wu.github.io) ...
   <!-- - 🤔 I’m looking for help with ... -->
   <!-- - 💬 Ask me about ... -->
   <!-- - 😄 Pronouns: ... -->
-- 📫 How to reach me: [Mail](mailto:swe2009510@xmu.edu.my)
+- 📫 How to reach me: [Mail](mailto:wuzx35@mail2.sysu.edu.cn)
 - ⚡ Fun fact: [CNBlogs](https://www.cnblogs.com/XUYICHENMO/)
   <!--
   -->
