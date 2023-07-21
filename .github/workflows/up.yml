@@ -1,0 +1,32 @@
+name: Deploy to AhKevinXy Github Pages
+
+on:
+    push:
+        branches: [main]
+    pull_request:
+        branches: [main]
+
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v3
+      
+            - name: Use Node.js 16
+              uses: actions/setup-python@v2
+            #   with:
+            #     node-version: '16.x'
+            - name: Build Project
+            
+              run: |
+                sh dist.sh
+
+            - name: Push dist
+              uses: JamesIves/github-pages-deploy-action@v4.4.2
+              with:
+                  branch: gh-pages
+                  folder: dist
+                  clean: true
+                  single-commit: true
