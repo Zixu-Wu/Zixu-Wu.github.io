@@ -1,8 +1,8 @@
 
-
+rm -r  dist
 mkdir dist
 
-python jemdoc.py ./*.jemdoc
+/d/soft/python  jemdoc.py ./*.jemdoc
 
 cp jemdoc.css ./dist
 mv ./*.html ./dist/
