@@ -16,10 +16,11 @@ jobs:
       
             - name: Use Node.js 16
               uses: actions/setup-python@v2
+              with:
+                  python-verion: '2.7.18'
             #   with:
             #     node-version: '16.x'
-                with:
-                  python-verion: '2.7.18'
+               
             - name: Build Project
             
               run: |
