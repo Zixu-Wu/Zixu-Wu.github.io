@@ -253,7 +253,7 @@ def standardconf():
   </div>
   
   [lastupdated]
-  Page generated |, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+  Page generated |.
 
   [sourcelink]
   (<a href="|">source</a>)
@@ -1182,7 +1182,7 @@ def procfile(f):
   # convert these to a dictionary.
   showfooter = True
   showsourcelink = False
-  showlastupdated = True
+  showlastupdated = False
   showlastupdatedtime = True
   nodefaultcss = False
   fwtitle = False
