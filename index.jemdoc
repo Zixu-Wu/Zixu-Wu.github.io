@@ -1,9 +1,9 @@
 # jemdoc: menu{MENU}{index.html}
-= Zixu Wu
+= Zixu Wu(吴子胥)
 
 ~~~
 {}{img_left}{zixu.jpeg}{alt text}{244.8px}{326.4px}{}
-Zixu Wu \n
+Zixu Wu(吴子胥) \n
 Undergraduate \n 
 [https://www.sysu.edu.cn/sysuen/ Sun Yat-Sen University]  \n
 \n
@@ -14,9 +14,8 @@ Blog: [https://twitter.com/Zixu_Wu_SYSU Twitter], [https://www.zhihu.com/people/
 == Short Bio 
 I study mathematics at Sun Yat-Sen University(SYSU).
 
-
 == Research Interests 
-Broadly speaking, I am interested in **Mathematical optimization** and its applications in **Machine Learning** and **Data Science**. Recently, I am focusing on the following topics:
+Broadly speaking, I am interested in *Mathematical optimization* and its applications in *Machine Learning* and *Data Science*. Recently, I am focusing on the following topics:
 - Learning Theory
 - Stochastic Optimization
 - Non-Convex Optimization
