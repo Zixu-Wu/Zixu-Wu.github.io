@@ -20,8 +20,15 @@ This page aims to record some useful links that help our study and research, it 
 - [https://sites.google.com/view/seminarmathdatascience/home Online Seminar on  Mathematical Foundations of Data Science]
 
 == Useful Resources on Optimization and Machine Learning
-- [https://sunju.org/research/nonconvex/#matrix-completionsensing Provable Nonconvex Methods and Algorithms] by Prof. Ju Sun @UMN
+- [https://sunju.org/research/nonconvex/ Provable Nonconvex Methods and Algorithms] by Prof. Ju Sun @UMN
 
 == Selected Courses and Tutorial Websites Related to Optimization
 - [https://sites.google.com/view/cjin/ece539cos512 Optimization for Machine Learning] by Chi Jin @Princeton University
 - [https://www.di.ens.fr/~fbach/learning_theory_class/ Learning Theory from First Principles] by Francis Bach @INRIA 
+
+== Selected Academic Journals Related to optimization
+- [https://link.springer.com/search?query&search-within=Journal&facet-journal-id=10107 Mathematical Programming]
+- [https://epubs.siam.org/multisearch/jb?publication=sjope8&sortBy=EpubDate_desc&countTerms=true SIAM Journal on Optimization] 
+- [https://jmlr.org/ Journal of Machine Learning Research]
+- [https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=18 IEEE Transactions on Information Theory]
+- [https://epubs.siam.org/multisearch/jb?publication=sjmdaq&sortBy=EpubDate_desc&countTerms=true SIAM Journal on Mathematics of Data Science]
