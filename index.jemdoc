@@ -2,7 +2,7 @@
 = Zixu Wu(吴子胥)
 
 ~~~
-{}{img_left}{zixu.jpeg}{alt text}{244.8px}{326.4px}{}
+{}{img_left}{zixu.jpeg}{alt text}{151.2px}{201.6px}{}
 Zixu Wu(吴子胥) \n
 Undergraduate \n 
 [https://www.sysu.edu.cn/sysuen/ Sun Yat-Sen University]  \n
@@ -12,11 +12,7 @@ Blog: [https://twitter.com/Zixu_Wu_SYSU Twitter], [https://www.zhihu.com/people/
 ~~~
 
 == Short Bio 
-I study mathematics at Sun Yat-Sen University(SYSU).
-
-~~~
-I am seeking a remote research internship position, and if my research interests closely align with your research directio area, please do not hesitate to reach out to me via emai.
-~~~
+I study mathematics at [https://www.sysu.edu.cn/sysuen/ Sun Yat-Sen University(SYSU)].
 
 == Research Interests 
 Broadly speaking, I am interested in *Mathematical optimization* and its applications in *Machine Learning* and *Data Science*. Recently, I am focusing on the following topics:
@@ -25,6 +21,10 @@ Broadly speaking, I am interested in *Mathematical optimization* and its applica
 - Non-Convex Optimization
 - Geometric Optimization
 - Information Geometry
+
+~~~
+I am seeking a remote research internship position, and if my research interests closely align with your research directio area, please do not hesitate to reach out to me via emai.
+~~~
 
 == Publication
 - Wait a moment...
