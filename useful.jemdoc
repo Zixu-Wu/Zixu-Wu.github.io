@@ -1,9 +1,8 @@
 # jemdoc: menu{MENU}{useful.html}
 ~~~
-{}{}
 This page aims to record some useful links that help our study and research, it will keep updating.
 ~~~
-\n
+
 == Conference Deadlines
 - [https://aideadlin.es/?sub=ML AI Conference Deadlines]
 
@@ -21,7 +20,7 @@ This page aims to record some useful links that help our study and research, it 
 - [https://sites.google.com/view/seminarmathdatascience/home Online Seminar on  Mathematical Foundations of Data Science]
 
 == Useful Resources on Optimization and Machine Learning
-- [https://sunju.org/research/nonconvex/#matrix-completionsensing Provable Nonconvex Methods/Algorithms] by Prof. Ju Sun @UMN
+- [https://sunju.org/research/nonconvex/#matrix-completionsensing Provable Nonconvex Methods and Algorithms] by Prof. Ju Sun @UMN
 
 == Selected Courses and Tutorial Websites Related to Optimization
 - [https://sites.google.com/view/cjin/ece539cos512 Optimization for Machine Learning] by Chi Jin @Princeton University
