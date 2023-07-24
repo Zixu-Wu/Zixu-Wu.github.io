@@ -4,7 +4,7 @@ This page aims to record some useful links that help our study and research, it 
 ~~~
 
 == Conference Deadlines
-- [https://aideadlin.es/?sub=ML AI Conference Deadlines]
+- [https://aideadlin.es/?sub=ML ML Conference Deadlines]
 
 == Suggestions on Graduate Study
 - [https://www.stat.cmu.edu/~aramdas/checklists.html Checklists for Stat-ML PhD students] by Aaditya Ramdas @CMU
@@ -13,22 +13,31 @@ This page aims to record some useful links that help our study and research, it 
 - [http://karpathy.github.io/2016/09/07/phd/ A Survival Guide to a PhD] by Andrej Karpathy @Tesla
 - [https://xinmingtu.cn/blog/2022/Academic-resource/ Collection of some resources related to the PhD journey] by Xinming Tu @UW
 
-== Online Seminars
+== Selected Online Seminars
 - [https://researchseminars.org/ A collection of recent research seminars]
 - [https://owos.univie.ac.at/ One World Optimization Seminar]
 - [https://www.oneworldml.org/home One World Seminar Series on the Mathematics of Machine Learning]
 - [https://sites.google.com/view/seminarmathdatascience/home Online Seminar on  Mathematical Foundations of Data Science]
 
 == Useful Resources on Optimization and Machine Learning
+- [https://arxiv.org/search/?query=math.OC&searchtype=all&order=-announced_date_first&size=50 Math.OC] Optimization and control papers in arXiv
+- [https://arxiv.org/search/?query=stat.ML&searchtype=all stat.ML] Machine learning and statistics papers in arXiv
 - [https://sunju.org/research/nonconvex/ Provable Nonconvex Methods and Algorithms] by Prof. Ju Sun @UMN
+- [http://www.columbia.edu/~ck2945/post/reading-list/ Reading List on common math and optimization used in research] by Prof. Christian Kroer @Columbia University 
+- [https://yuxinchen2020.github.io/ele522_optimization/index.html Large-Scale Optimization for Data Science] by Yuxin Chen @Princeton University/UPenn
 
 == Selected Courses and Tutorial Websites Related to Optimization
+- [http://www.seas.ucla.edu/~vandenbe/index.html Several courses on optimization] by Prof. Lieven Vandenberghe @UCLA
 - [https://sites.google.com/view/cjin/ece539cos512 Optimization for Machine Learning] by Chi Jin @Princeton University
 - [https://www.di.ens.fr/~fbach/learning_theory_class/ Learning Theory from First Principles] by Francis Bach @INRIA 
+- [https://csml.princeton.edu/bridgingmathematicaloptimizationslidesvideos Bridging Mathematical Optimization, Information Theory, and Data Science] @Princeton University 
+- [https://www.youtube.com/user/SimonsInstitute/playlists The Simons Institute for the Theory of Computing] @UC Berkerly
 
-== Selected Academic Journals Related to optimization
+== Selected Academic Journals Related to Optimization
 - [https://link.springer.com/search?query&search-within=Journal&facet-journal-id=10107 Mathematical Programming]
 - [https://epubs.siam.org/multisearch/jb?publication=sjope8&sortBy=EpubDate_desc&countTerms=true SIAM Journal on Optimization] 
 - [https://jmlr.org/ Journal of Machine Learning Research]
 - [https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=18 IEEE Transactions on Information Theory]
 - [https://epubs.siam.org/multisearch/jb?publication=sjmdaq&sortBy=EpubDate_desc&countTerms=true SIAM Journal on Mathematics of Data Science]
+
+== Selected Mathematical Analysis Textbook
