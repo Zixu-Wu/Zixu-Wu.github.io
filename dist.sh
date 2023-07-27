@@ -1,8 +1,7 @@
 
-rm -r  dist
+
 mkdir dist
 
-/d/soft/python  jemdoc.py ./*.jemdoc
+python   jemdoc -c jemdoc.conf  -o dist/  ./*.jemdoc
 
-cp jemdoc.css ./dist
-mv ./*.html ./dist/
+cp  -r css/* ./dist/
