@@ -2,7 +2,7 @@ name: Deploy to AhKevinXy Github Pages
 
 on:
     push:
-        branches: [master]
+        branches: [main]
     pull_request:
         branches: [main]
 
