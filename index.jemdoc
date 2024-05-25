@@ -43,38 +43,43 @@ My research interests broadly lie at the interface of *optimization*, *statistic
 
 == 部分课程与分数/Slected Courses with scores
 ~~~
-- 数学分析/Mathematical Analysis II (94)
--- 数学分析
-- 高等代数/Advanced Algebra II (94)
-- 解析几何/Analytic geometry II (94)
-- 高级语言程序设计/Advanced Language Programming (CPP) (92)
-- 离散数学/Discrete Mathematics (94)
-- 大学物理(理学)/College Physics (for Science) (93)
-- 抽象代数/Abstract Algebra (85)
-- 数值代数/Numerical Algebra (99)
-- 数理统计/Mathematical Statistics (96)
-- 运筹学/Operations Research (94)
-- 智能算法/Intelligent Algorithms (99)
-- 偏微分方程/Partial Differential Equations (91)
-- 时间序列分析/Time Series Analysis (89)
-- 博弈论/Game Theory (84)
-- 非线性优化/Optimization (Ongoing)
-- 随机过程/Stochastic Processes (Ongoing)
-- 泛函分析/Functional Analysis (Ongoing)
-- 微分方程数值解/Numerical Solution of Differential Equation (Ongoing)
-- 信息论/Information Theory (Ongoing)
+- 分析/Analysis&Equations
+-- 数学分析/Mathematical Analysis II (94)
+-- 实分析/Real Analysis (*Graduate Course*, Ongoing)
+-- 泛函分析/Functional Analysis (Ongoing)
+-- 偏微分方程/Partial Differential Equations (91)
+-- 现代常微分方程定性理论/Qualitative Theory of Modern ODE (*Graduate Course*, 85)
+-- 微分动力系统/Differential Dynamical Systems (*Graduate Course*, Ongoing)
+-- 矩阵分析/Matrix Analysis (*Graduate Course*, Ongoing)
+-- 数值代数/Numerical Algebra (99)
+-- 微分方程数值解/Numerical Solution of Differential Equation (Ongoing)
+
+- 代数/Algebra
+-- 高等代数/Advanced Algebra II (94)
+-- 抽象代数/Abstract Algebra (85)
+-- 代数拓扑/Algebraic Topology (*Graduate Course*, Ongoing) 
+
+- 算法/Algorithm
+-- 高级语言程序设计/Advanced Language Programming (CPP) (92)
+-- 离散数学/Discrete Mathematics (94)
+-- 智能算法/Intelligent Algorithms (99)
+
+- 统计-运筹-人工智能/Statistics & OR & AI
+-- 数理统计/Mathematical Statistics (96)
+-- 运筹学/Operations Research (94)
+-- 博弈论/Game Theory (84)
+-- 信息论/Information Theory (Ongoing)
+-- 随机过程/Stochastic Processes (Ongoing)
+-- 时间序列分析/Time Series Analysis (89)
+-- 统计决策与贝叶斯分析/Statistical Decision Theory and Bayesian Analysis (Ongoing)
+-- 高等统计与统计计算/Advanced Statistics and Statistical Computation (*Graduate Course*, Ongoing)
+-- 机器学习/Machine Learning (*Graduate Course*, Ongoing)
+-- 深度学习/Deep Learning (*Graduate Course*, 92)
+-- 数据挖掘/Data Mining (*Graduate Course*, 91)
+-- 高级人工智能/Advanced Artificial Intelligence (*Graduate Course*, Ongoing)
+
+- 其他/Others
+-- 解析几何/Analytic geometry II (94)
+-- 大学物理(理学)/College Physics (for Science) (93)
 ~~~
 
-~~~
-- 深度学习/Deep Learning (*Graduate Course*, 92)
-- 数据挖掘/Data Mining (*Graduate Course*, 91)
-- 现代常微分方程定性理论/Qualitative Theory of Modern ODE (*Graduate Course*, 85)
-- 统计决策与贝叶斯分析/Statistical Decision Theory and Bayesian Analysis (*Graduate Course*, Ongoing)
-- 高级人工智能/Advanced Artificial Intelligence (*Graduate Course*, Ongoing)
-- 机器学习/Machine Learning (*Graduate Course*, Ongoing)
-- 矩阵分析/Matrix Analysis (*Graduate Course*, Ongoing)
-- 实分析/Real Analysis (*Graduate Course*, Ongoing)
-- 高等统计与统计计算/Advanced Statistics and Statistical Computation (*Graduate Course*, Ongoing)
-- 微分动力系统/Differential Dynamical Systems (*Graduate Course*, Ongoing)
-- 代数拓扑/Algebraic Topology (*Graduate Course*, Ongoing) 
-~~~
