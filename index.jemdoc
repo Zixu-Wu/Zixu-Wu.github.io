@@ -46,13 +46,11 @@ Analysis & Equations
 - Partial Differential Equations (91)
 - Functional Analysis (90)
 - Numerical Solution of Differential Equations (93)
-- Qualitative Theory of Modern ODE (*Graduate Course*, 85)
 ~~~
 
 ~~~
 Algebra & Geometry
 - (Linear) Algebra and (Analytic) geometry II (94)
-- (Abstract) Algebra (85)
 - Riemannian Geometry (*Graduate Course*, Ongoing)
 ~~~
 
@@ -72,17 +70,16 @@ Statistics & Data Science
 - Mathematical Statistics (96)
 - Operations Research (94)
 - Time Series Analysis (89)
-- Optimization (89)
 - Stochastic Processes (92)
-- Statistical Decision Theory and Bayesian Analysis (87)
 - Machine Learning (*Graduate Course*, 90)
 - Deep Learning (*Graduate Course*, 92)
 - Data Mining (*Graduate Course*, 91)
 - Advanced Artificial Intelligence (*Graduate Course*, 94)
 - Frontiers of Artificial Intelligence(*Graduate Course*, Ongoing)
-- Game Theory and Mechanism Design (*Graduate Course*, 87)
 - Advanced Statistics and Statistical Computation (*Graduate Course*, 89)
 - Optimization Theory and Methods (*Graduate Course*, Ongoing)
+- Mathematical Foundations of Sparse Information Processing (*Graduate Course*, Ongoing)
+- Advanced Numerical Analysis (*Graduate Course*, Ongoing)
 ~~~
 
 ~~~
@@ -91,6 +88,5 @@ Others
 ~~~
 
 == Teaching Experience
-- Sun Yat-Sen University
--- MAZ344 Optimization
---- Teaching Assistant
+- MAZ344 Optimization at Sun Yat-Sen University
+-- Teaching Assistant
