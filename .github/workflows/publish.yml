@@ -1,0 +1,84 @@
+name: Publish website
+on:
+  repository_dispatch:
+    types: [publish-site]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+      actions: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Download already-public website files
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, pathlib, re, time, urllib.parse, urllib.request
+          origin = 'https://zixuwu.pages.dev/'
+          output = pathlib.Path('_site')
+          output.mkdir()
+          def fetch(path):
+              url = origin + urllib.parse.quote(path, safe='/')
+              request = urllib.request.Request(url, headers={'Cache-Control': 'no-cache'})
+              for attempt in range(3):
+                  try:
+                      with urllib.request.urlopen(request, timeout=45) as response:
+                          if urllib.parse.urlsplit(response.url).netloc != 'zixuwu.pages.dev':
+                              raise ValueError('Unexpected download host')
+                          return response.read()
+                  except Exception:
+                      if attempt == 2:
+                          raise
+                      time.sleep(5)
+          manifest = json.loads(fetch('site-manifest.json'))
+          if manifest.get('version') != 1:
+              raise ValueError('Unsupported site manifest')
+          files = manifest['files']
+          if 'index.html' not in files or not 1 <= len(files) <= 2000:
+              raise ValueError('Invalid website file list')
+          for name, expected in files.items():
+              path = pathlib.PurePosixPath(name)
+              if (path.is_absolute() or '..' in path.parts or '\\' in name
+                  or any(part.startswith('.') for part in path.parts)
+                  or not re.fullmatch('[0-9a-f]{64}', expected)):
+                  raise ValueError('Unsafe manifest entry')
+              data = fetch(name)
+              if hashlib.sha256(data).hexdigest() != expected:
+                  raise ValueError('Website changed during download; rerun publication')
+              destination = output / path
+              destination.parent.mkdir(parents=True, exist_ok=True)
+              destination.write_bytes(data)
+          print(f'Prepared {len(files)} public website files.')
+          PY
+      - uses: actions/configure-pages@v5
+      - name: Upload temporary deployment files
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+          retention-days: 1
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Remove temporary download artifact
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPOSITORY: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          ids=$(gh api "repos/$REPOSITORY/actions/runs/$RUN_ID/artifacts" \
+            --jq '.artifacts[] | select(.name == "github-pages") | .id')
+          for id in $ids; do
+            gh api --method DELETE "repos/$REPOSITORY/actions/artifacts/$id"
+          done
