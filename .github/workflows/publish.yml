@@ -28,8 +28,9 @@ jobs:
           origin = 'https://zixuwu.pages.dev/'
           output = pathlib.Path('_site')
           output.mkdir()
+          cache_key = str(time.time_ns())
           def fetch(path):
-              url = origin + urllib.parse.quote(path, safe='/')
+              url = origin + urllib.parse.quote(path, safe='/') + '?publish=' + cache_key
               request = urllib.request.Request(url, headers={'Cache-Control': 'no-cache', 'User-Agent': 'Mozilla/5.0'})
               for attempt in range(3):
                   try:
